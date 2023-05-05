@@ -1,0 +1,77 @@
+.item-container {
+  background-color: transparent;
+  border: 1px solid #7683cb;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+}
+@media screen and (min-width: 576px) {
+  .item-container {
+    max-width: 190px;
+    margin-right: 10px;
+  }
+}
+.initial-container {
+  height: 25px;
+  width: 25px;
+  border-radius: 30px;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.initial-letter {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  color: #f8fafc;
+}
+.stars-image {
+  background-color: transparent;
+  width: 80px;
+}
+.website-name {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #f8fafc;
+  margin: 0px;
+}
+.user-name {
+  font-family: 'Roboto';
+  font-size: 11px;
+  color: #f8fafc;
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.user-password {
+  font-family: 'Roboto';
+  font-size: 9px;
+  color: #f8fafc;
+  margin: 0px;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: auto;
+}
+.delete-icon {
+  height: 15px;
+}
+.background-color-light-orange {
+  background-color: #f59e0b;
+}
+.background-color-green {
+  background-color: #10b981;
+}
+.background-color-orange {
+  background-color: #f97316;
+}
+.background-color-light-green {
+  background-color: #14b8a6;
+}
+.background-color-red {
+  background-color: #b91c1c;
+}

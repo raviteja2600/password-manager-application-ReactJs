@@ -1,0 +1,223 @@
+.bg-container {
+  background-color: #9ba9eb;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 576px) {
+  .bg-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+.logo-container {
+  display: flex;
+  align-items: flex-start;
+}
+.app-logo {
+  height: 40px;
+  margin: 10px;
+}
+.top-section-container {
+  background-color: #5763a5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 576px) {
+  .top-section-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.password-manager-small-image {
+  width: 100%;
+  max-width: 250px;
+}
+@media screen and (min-width: 576px) {
+  .password-manager-small-image {
+    display: none;
+  }
+}
+.password-manager-large-image {
+  width: 100%;
+  display: none;
+}
+@media screen and (min-width: 576px) {
+  .password-manager-large-image {
+    display: flex;
+    max-width: 220px;
+    margin-left: 20px;
+  }
+}
+.top-section-card-container {
+  background-color: #454f84;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+@media screen and (min-width: 576px) {
+  .top-section-card-container {
+    width: 90%;
+    min-width: 200px;
+  }
+}
+.card-heading {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+.text-container {
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.icon-container {
+  border-right: 1px solid #94a3b8;
+  padding: 7px;
+  text-align: center;
+}
+.icon {
+  height: 15px;
+}
+.text-bar {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #94a3b8;
+  padding-left: 7px;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.add-button {
+  background-color: #0b69ff;
+  width: 88px;
+  height: 33px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+.bottom-section-container {
+  background-color: #5763a5;
+  border-radius: 10px;
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.bottom-top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.count-container {
+  display: flex;
+  align-items: center;
+}
+.your-password {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #f8fafc;
+}
+.count-value {
+  border: 1px solid #f8fafc;
+  border-radius: 10px;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-left: 8px;
+  color: #f8fafc;
+}
+.search-container {
+  background-color: #f8fafc;
+  display: flex;
+}
+.search-icon-container {
+  border-right: 1px solid #94a3b8;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.search-bar {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #94a3b8;
+  padding: 3px;
+  width: 100px;
+}
+.horizontal-line {
+  border: 1px solid #7683cb;
+  width: 100%;
+}
+.show-passwords-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.background-blue {
+  background-color: #0b69ff;
+}
+.background-light {
+  background-color: #f8fafc;
+}
+.checkbox-label {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #f8fafc;
+  margin-left: 5px;
+}
+.list-items {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+.no-passwords-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.no-password-image {
+  width: 100%;
+  max-width: 300px;
+}
+@media screen and (min-width: 576px) {
+  .no-password-image {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+}
+.no-password-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f8fafc;
+}
